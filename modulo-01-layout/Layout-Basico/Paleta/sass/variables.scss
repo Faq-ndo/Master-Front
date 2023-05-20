@@ -1,0 +1,45 @@
+$red-base : #f44336;
+$blue-base : #3f51b5;
+$green-base : #4caf4f;
+
+$lighten-reds: (
+    lighten($red-base, 5%),
+    lighten($red-base, 10%),
+    lighten($red-base, 15%),
+    lighten($red-base, 20%)
+);
+
+$darken-reds: (
+    darken($red-base, 5%),
+    darken($red-base, 10%),
+    darken($red-base, 15%),
+    darken($red-base, 20%)
+);
+
+$lighten-blues: (
+    lighten($blue-base, 5%),
+    lighten($blue-base, 10%),
+    lighten($blue-base, 15%),
+    lighten($blue-base, 20%)
+);
+
+$darken-blues: (
+    darken($blue-base, 5%),
+    darken($blue-base, 10%),
+    darken($blue-base, 15%),
+    darken($blue-base, 20%)
+);
+
+$lighten-greens: (
+    lighten($green-base, 5%),
+    lighten($green-base, 10%),
+    lighten($green-base, 15%),
+    lighten($green-base, 20%)
+);
+
+$darken-greens: (
+    darken($green-base, 5%),
+    darken($green-base, 10%),
+    darken($green-base, 15%),
+    darken($green-base, 20%)
+);

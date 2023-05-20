@@ -1,0 +1,276 @@
+.container-1 .base-color {
+  background-color: #f44336;
+}
+
+.container-2 .base-color {
+  background-color: #3f51b5;
+}
+
+.container-3 .base-color {
+  background-color: #4caf4f;
+}
+
+.container-1 .color-box-text {
+  color: #4adbf1;
+}
+
+.container-2 .color-box-text {
+  color: #a89140;
+}
+
+.container-3 .color-box-text {
+  color: #a85195;
+}
+
+.base-color .color-box-text {
+  color: whitesmoke;
+}
+
+.container-1 .darken-4 {
+  background-color: #ba160a;
+}
+
+.container-1 .lighten-4 {
+  background-color: #f55a4e;
+}
+
+.container-1 .darken-3 {
+  background-color: #d2190b;
+}
+
+.container-1 .lighten-3 {
+  background-color: #f77066;
+}
+
+.container-1 .darken-2 {
+  background-color: #ea1c0d;
+}
+
+.container-1 .lighten-2 {
+  background-color: #f8877f;
+}
+
+.container-1 .darken-1 {
+  background-color: #f32c1e;
+}
+
+.container-1 .lighten-1 {
+  background-color: #f99d97;
+}
+
+.container-2 .darken-4 {
+  background-color: #252f69;
+}
+
+.container-2 .lighten-4 {
+  background-color: #4d5ec1;
+}
+
+.container-2 .darken-3 {
+  background-color: #2b387c;
+}
+
+.container-2 .lighten-3 {
+  background-color: #606fc7;
+}
+
+.container-2 .darken-2 {
+  background-color: #32408f;
+}
+
+.container-2 .lighten-2 {
+  background-color: #7280ce;
+}
+
+.container-2 .darken-1 {
+  background-color: #3849a2;
+}
+
+.container-2 .lighten-1 {
+  background-color: #8591d5;
+}
+
+.container-3 .darken-4 {
+  background-color: #2d682f;
+}
+
+.container-3 .lighten-4 {
+  background-color: #5cb85f;
+}
+
+.container-3 .darken-3 {
+  background-color: #357a37;
+}
+
+.container-3 .lighten-3 {
+  background-color: #6ec070;
+}
+
+.container-3 .darken-2 {
+  background-color: #3d8b3f;
+}
+
+.container-3 .lighten-2 {
+  background-color: #80c882;
+}
+
+.container-3 .darken-1 {
+  background-color: #449d47;
+}
+
+.container-3 .lighten-1 {
+  background-color: #92cf93;
+}
+
+.container-1 .base-color {
+  background-color: #f44336;
+}
+
+.container-2 .base-color {
+  background-color: #3f51b5;
+}
+
+.container-3 .base-color {
+  background-color: #4caf4f;
+}
+
+.container-1 .color-box-text {
+  color: #4adbf1;
+}
+
+.container-2 .color-box-text {
+  color: #a89140;
+}
+
+.container-3 .color-box-text {
+  color: #a85195;
+}
+
+.base-color .color-box-text {
+  color: whitesmoke;
+}
+
+.container-1 .darken-4 {
+  background-color: #ba160a;
+}
+
+.container-1 .lighten-4 {
+  background-color: #f55a4e;
+}
+
+.container-1 .darken-3 {
+  background-color: #d2190b;
+}
+
+.container-1 .lighten-3 {
+  background-color: #f77066;
+}
+
+.container-1 .darken-2 {
+  background-color: #ea1c0d;
+}
+
+.container-1 .lighten-2 {
+  background-color: #f8877f;
+}
+
+.container-1 .darken-1 {
+  background-color: #f32c1e;
+}
+
+.container-1 .lighten-1 {
+  background-color: #f99d97;
+}
+
+.container-2 .darken-4 {
+  background-color: #252f69;
+}
+
+.container-2 .lighten-4 {
+  background-color: #4d5ec1;
+}
+
+.container-2 .darken-3 {
+  background-color: #2b387c;
+}
+
+.container-2 .lighten-3 {
+  background-color: #606fc7;
+}
+
+.container-2 .darken-2 {
+  background-color: #32408f;
+}
+
+.container-2 .lighten-2 {
+  background-color: #7280ce;
+}
+
+.container-2 .darken-1 {
+  background-color: #3849a2;
+}
+
+.container-2 .lighten-1 {
+  background-color: #8591d5;
+}
+
+.container-3 .darken-4 {
+  background-color: #2d682f;
+}
+
+.container-3 .lighten-4 {
+  background-color: #5cb85f;
+}
+
+.container-3 .darken-3 {
+  background-color: #357a37;
+}
+
+.container-3 .lighten-3 {
+  background-color: #6ec070;
+}
+
+.container-3 .darken-2 {
+  background-color: #3d8b3f;
+}
+
+.container-3 .lighten-2 {
+  background-color: #80c882;
+}
+
+.container-3 .darken-1 {
+  background-color: #449d47;
+}
+
+.container-3 .lighten-1 {
+  background-color: #92cf93;
+}
+
+body {
+  font-family: monospace;
+}
+
+.container-1, .container-2, .container-3 {
+  display: flex;
+}
+
+.base-color {
+  width: 130px;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.box, .base-color {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*# sourceMappingURL=style.css.map */

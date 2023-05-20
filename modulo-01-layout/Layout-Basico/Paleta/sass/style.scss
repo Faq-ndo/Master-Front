@@ -1,0 +1,29 @@
+@import 'variables.scss';
+@import 'colors.scss';
+
+body{
+    font-family: monospace;
+}
+
+.container-1, .container-2, .container-3 {
+    display: flex;
+}
+
+.base-color {
+    width: 130px;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.box, .base-color {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

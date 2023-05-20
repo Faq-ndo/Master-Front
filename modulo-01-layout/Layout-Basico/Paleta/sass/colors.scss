@@ -1,0 +1,57 @@
+.container-1 .base-color {
+    background-color: $red-base;
+}
+
+.container-2 .base-color {
+    background-color: $blue-base;
+}
+
+.container-3 .base-color {
+    background-color: $green-base;
+}
+
+.container-1 .color-box-text {
+    color: #4adbf1;
+}
+
+.container-2 .color-box-text {
+    color: #a89140;
+}
+
+.container-3 .color-box-text {
+    color: #a85195;
+}
+
+.base-color .color-box-text {
+    color: whitesmoke;
+}
+
+@for $i from 4 through 1 {
+    .container-1 .darken-#{$i} {
+      background-color: nth($darken-reds, $i);
+    }
+    
+    .container-1 .lighten-#{$i} {
+      background-color: nth($lighten-reds, 5 - $i);
+    }
+}
+
+@for $i from 4 through 1 {
+    .container-2 .darken-#{$i} {
+      background-color: nth($darken-blues, $i);
+    }
+    
+    .container-2 .lighten-#{$i} {
+      background-color: nth($lighten-blues, 5 - $i);
+    }
+}
+
+@for $i from 4 through 1 {
+    .container-3 .darken-#{$i} {
+      background-color: nth($darken-greens, $i);
+    }
+    
+    .container-3 .lighten-#{$i} {
+      background-color: nth($lighten-greens, 5 - $i);
+    }
+}
