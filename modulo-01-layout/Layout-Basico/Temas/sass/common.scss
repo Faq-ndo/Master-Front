@@ -1,0 +1,63 @@
+@import 'themeB.scss';
+
+body {
+    font-family: 'Comic Sans MS';
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2%;
+    margin-left: 2%;
+}
+
+.base, .important, .warning, .fonts, .shadow-box {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 120px;
+    height: 90px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    border-radius: $border-radius;
+}
+
+.base, .important, .warning, .shadow-box {
+    align-items: center;
+}
+
+.fonts {
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.fonts span{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.principal-font {
+    font-family: $principal-font;
+}
+
+.secondary-font {
+    font-family: $secondary-font;
+}
+
+.important {
+    background-color: $base-color;
+}
+
+.base {
+    background-color: darken($base-color, $color-variant-per);
+}
+
+.warning {
+    background-color: lighten($base-color, $color-variant-per);
+}
+
+.shadow-box {
+    border: solid black 1x;
+    box-shadow: $shadow-box;
+}

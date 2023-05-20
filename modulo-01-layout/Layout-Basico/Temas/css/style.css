@@ -1,0 +1,63 @@
+body {
+  font-family: "Comic Sans MS";
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2%;
+  margin-left: 2%;
+}
+
+.base, .important, .warning, .fonts, .shadow-box {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  width: 120px;
+  height: 90px;
+  margin-right: 10px;
+  margin-bottom: 5px;
+  border-radius: 5px;
+}
+
+.base, .important, .warning, .shadow-box {
+  align-items: center;
+}
+
+.fonts {
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.fonts span {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.principal-font {
+  font-family: Arial;
+}
+
+.secondary-font {
+  font-family: Arial;
+}
+
+.important {
+  background-color: #3f51b5;
+}
+
+.base {
+  background-color: #252f69;
+}
+
+.warning {
+  background-color: #8591d5;
+}
+
+.shadow-box {
+  border: solid black 1x;
+  box-shadow: 10px 10px 10px black;
+}
+
+/*# sourceMappingURL=style.css.map */
