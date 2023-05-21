@@ -1,0 +1,19 @@
+@media (max-width: 767px) {
+    .navbar-options {
+        flex-direction: column;
+        margin-left: 3%;
+        margin-right: 3%;
+    }
+
+    .navbar-options li {
+        flex-grow: 1;
+        display: flex;
+        justify-content: center;
+        height: 5rem;
+        margin-right: 0px;
+    }
+
+    .navbar-title span {
+        margin-left: 3%;
+    }
+  }
