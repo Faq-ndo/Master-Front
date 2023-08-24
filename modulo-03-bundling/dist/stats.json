@@ -1,0 +1,2613 @@
+{
+  "hash": "2c561fc68f50724543d6",
+  "version": "5.88.2",
+  "time": null,
+  "publicPath": "auto",
+  "outputPath": "/Users/facundo/Documents/Master-Front/modulo-03-bundling/dist",
+  "assetsByChunkName": {
+    "main": [
+      "bundle.js"
+    ]
+  },
+  "assets": [
+    {
+      "type": "asset",
+      "name": "bundle.js",
+      "size": 24437,
+      "emitted": false,
+      "comparedForEmit": false,
+      "cached": true,
+      "info": {
+        "javascriptModule": false
+      },
+      "chunkNames": [
+        "main"
+      ],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "related": {},
+      "chunks": [
+        "main"
+      ],
+      "auxiliaryChunks": [],
+      "isOverSizeLimit": false
+    },
+    {
+      "type": "asset",
+      "name": "img/lemonCode.png",
+      "size": 5202,
+      "emitted": false,
+      "comparedForEmit": false,
+      "cached": true,
+      "info": {
+        "copied": true,
+        "sourceFilename": "src/img/lemonCode.png"
+      },
+      "chunkNames": [],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "related": {},
+      "chunks": [],
+      "auxiliaryChunks": [],
+      "isOverSizeLimit": false
+    }
+  ],
+  "chunks": [
+    {
+      "rendered": true,
+      "initial": true,
+      "entry": true,
+      "recorded": false,
+      "size": 11293,
+      "sizes": {
+        "javascript": 10321,
+        "runtime": 972
+      },
+      "names": [
+        "main"
+      ],
+      "idHints": [],
+      "runtime": [
+        "main"
+      ],
+      "files": [
+        "bundle.js"
+      ],
+      "auxiliaryFiles": [],
+      "hash": "630a46171c31f1041d84",
+      "childrenByOrder": {},
+      "id": "main",
+      "siblings": [],
+      "parents": [],
+      "children": [],
+      "modules": [
+        {
+          "type": "module",
+          "moduleType": "javascript/auto",
+          "layer": null,
+          "size": 595,
+          "sizes": {
+            "javascript": 595
+          },
+          "built": true,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/css-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/sass-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/src/style.scss",
+          "name": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/style.scss",
+          "nameForCondition": "/Users/facundo/Documents/Master-Front/modulo-03-bundling/src/style.scss",
+          "index": 8,
+          "preOrderIndex": 8,
+          "index2": 8,
+          "postOrderIndex": 8,
+          "cacheable": true,
+          "optional": false,
+          "orphan": false,
+          "dependent": true,
+          "issuer": "/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/style-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/css-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/sass-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/src/style.scss",
+          "issuerName": "./src/style.scss",
+          "issuerPath": [
+            {
+              "identifier": "/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/ts-loader/index.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/src/index.ts",
+              "name": "./src/index.ts",
+              "id": "./src/index.ts"
+            },
+            {
+              "identifier": "/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/style-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/css-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/sass-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/src/style.scss",
+              "name": "./src/style.scss",
+              "id": "./src/style.scss"
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/style.scss",
+          "issuerId": "./src/style.scss",
+          "chunks": [
+            "main"
+          ],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": "/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/style-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/css-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/sass-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/src/style.scss",
+              "module": "./src/style.scss",
+              "moduleName": "./src/style.scss",
+              "resolvedModuleIdentifier": "/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/style-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/css-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/sass-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/src/style.scss",
+              "resolvedModule": "./src/style.scss",
+              "type": "harmony side effect evaluation",
+              "active": true,
+              "explanation": "",
+              "userRequest": "!!../node_modules/css-loader/dist/cjs.js!../node_modules/sass-loader/dist/cjs.js!./style.scss",
+              "loc": "8:6-140",
+              "moduleId": "./src/style.scss",
+              "resolvedModuleId": "./src/style.scss"
+            },
+            {
+              "moduleIdentifier": "/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/style-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/css-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/sass-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/src/style.scss",
+              "module": "./src/style.scss",
+              "moduleName": "./src/style.scss",
+              "resolvedModuleIdentifier": "/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/style-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/css-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/sass-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/src/style.scss",
+              "resolvedModule": "./src/style.scss",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "!!../node_modules/css-loader/dist/cjs.js!../node_modules/sass-loader/dist/cjs.js!./style.scss",
+              "loc": "22:17-24",
+              "moduleId": "./src/style.scss",
+              "resolvedModuleId": "./src/style.scss"
+            },
+            {
+              "moduleIdentifier": "/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/style-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/css-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/sass-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/src/style.scss",
+              "module": "./src/style.scss",
+              "moduleName": "./src/style.scss",
+              "resolvedModuleIdentifier": "/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/style-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/css-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/sass-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/src/style.scss",
+              "resolvedModule": "./src/style.scss",
+              "type": "harmony side effect evaluation",
+              "active": true,
+              "explanation": "",
+              "userRequest": "!!../node_modules/css-loader/dist/cjs.js!../node_modules/sass-loader/dist/cjs.js!./style.scss",
+              "loc": "26:0-110",
+              "moduleId": "./src/style.scss",
+              "resolvedModuleId": "./src/style.scss"
+            },
+            {
+              "moduleIdentifier": "/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/style-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/css-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/sass-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/src/style.scss",
+              "module": "./src/style.scss",
+              "moduleName": "./src/style.scss",
+              "resolvedModuleIdentifier": "/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/style-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/css-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/sass-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/src/style.scss",
+              "resolvedModule": "./src/style.scss",
+              "type": "harmony export imported specifier",
+              "active": false,
+              "explanation": "",
+              "userRequest": "!!../node_modules/css-loader/dist/cjs.js!../node_modules/sass-loader/dist/cjs.js!./style.scss",
+              "loc": "26:0-110",
+              "moduleId": "./src/style.scss",
+              "resolvedModuleId": "./src/style.scss"
+            },
+            {
+              "moduleIdentifier": "/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/style-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/css-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/sass-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/src/style.scss",
+              "module": "./src/style.scss",
+              "moduleName": "./src/style.scss",
+              "resolvedModuleIdentifier": "/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/style-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/css-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/sass-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/src/style.scss",
+              "resolvedModule": "./src/style.scss",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "!!../node_modules/css-loader/dist/cjs.js!../node_modules/sass-loader/dist/cjs.js!./style.scss",
+              "loc": "27:22-29",
+              "moduleId": "./src/style.scss",
+              "resolvedModuleId": "./src/style.scss"
+            },
+            {
+              "moduleIdentifier": "/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/style-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/css-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/sass-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/src/style.scss",
+              "module": "./src/style.scss",
+              "moduleName": "./src/style.scss",
+              "resolvedModuleIdentifier": "/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/style-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/css-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/sass-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/src/style.scss",
+              "resolvedModule": "./src/style.scss",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "!!../node_modules/css-loader/dist/cjs.js!../node_modules/sass-loader/dist/cjs.js!./style.scss",
+              "loc": "27:33-47",
+              "moduleId": "./src/style.scss",
+              "resolvedModuleId": "./src/style.scss"
+            },
+            {
+              "moduleIdentifier": "/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/style-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/css-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/sass-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/src/style.scss",
+              "module": "./src/style.scss",
+              "moduleName": "./src/style.scss",
+              "resolvedModuleIdentifier": "/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/style-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/css-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/sass-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/src/style.scss",
+              "resolvedModule": "./src/style.scss",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "!!../node_modules/css-loader/dist/cjs.js!../node_modules/sass-loader/dist/cjs.js!./style.scss",
+              "loc": "27:50-64",
+              "moduleId": "./src/style.scss",
+              "resolvedModuleId": "./src/style.scss"
+            }
+          ],
+          "usedExports": null,
+          "providedExports": [
+            "default"
+          ],
+          "optimizationBailout": [],
+          "depth": 2
+        },
+        {
+          "type": "module",
+          "moduleType": "javascript/auto",
+          "layer": null,
+          "size": 2303,
+          "sizes": {
+            "javascript": 2303
+          },
+          "built": true,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/css-loader/dist/runtime/api.js",
+          "name": "./node_modules/css-loader/dist/runtime/api.js",
+          "nameForCondition": "/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/css-loader/dist/runtime/api.js",
+          "index": 10,
+          "preOrderIndex": 10,
+          "index2": 7,
+          "postOrderIndex": 7,
+          "cacheable": true,
+          "optional": false,
+          "orphan": false,
+          "dependent": true,
+          "issuer": "/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/css-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/sass-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/src/style.scss",
+          "issuerName": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/style.scss",
+          "issuerPath": [
+            {
+              "identifier": "/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/ts-loader/index.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/src/index.ts",
+              "name": "./src/index.ts",
+              "id": "./src/index.ts"
+            },
+            {
+              "identifier": "/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/style-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/css-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/sass-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/src/style.scss",
+              "name": "./src/style.scss",
+              "id": "./src/style.scss"
+            },
+            {
+              "identifier": "/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/css-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/sass-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/src/style.scss",
+              "name": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/style.scss",
+              "id": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/style.scss"
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "./node_modules/css-loader/dist/runtime/api.js",
+          "issuerId": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/style.scss",
+          "chunks": [
+            "main"
+          ],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": "/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/css-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/sass-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/src/style.scss",
+              "module": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/style.scss",
+              "moduleName": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/style.scss",
+              "resolvedModuleIdentifier": "/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/css-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/sass-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/src/style.scss",
+              "resolvedModule": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/style.scss",
+              "type": "harmony side effect evaluation",
+              "active": true,
+              "explanation": "",
+              "userRequest": "../node_modules/css-loader/dist/runtime/api.js",
+              "loc": "3:0-89",
+              "moduleId": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/style.scss",
+              "resolvedModuleId": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/style.scss"
+            },
+            {
+              "moduleIdentifier": "/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/css-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/sass-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/src/style.scss",
+              "module": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/style.scss",
+              "moduleName": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/style.scss",
+              "resolvedModuleIdentifier": "/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/css-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/sass-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/src/style.scss",
+              "resolvedModule": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/style.scss",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "../node_modules/css-loader/dist/runtime/api.js",
+              "loc": "4:30-57",
+              "moduleId": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/style.scss",
+              "resolvedModuleId": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/style.scss"
+            },
+            {
+              "moduleIdentifier": "/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/css-loader/dist/runtime/api.js",
+              "module": "./node_modules/css-loader/dist/runtime/api.js",
+              "moduleName": "./node_modules/css-loader/dist/runtime/api.js",
+              "resolvedModuleIdentifier": "/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/css-loader/dist/runtime/api.js",
+              "resolvedModule": "./node_modules/css-loader/dist/runtime/api.js",
+              "type": "cjs self exports reference",
+              "active": true,
+              "explanation": "",
+              "userRequest": null,
+              "loc": "7:0-14",
+              "moduleId": "./node_modules/css-loader/dist/runtime/api.js",
+              "resolvedModuleId": "./node_modules/css-loader/dist/runtime/api.js"
+            }
+          ],
+          "usedExports": null,
+          "providedExports": null,
+          "optimizationBailout": [
+            "CommonJS bailout: module.exports is used directly at 7:0-14"
+          ],
+          "depth": 3
+        },
+        {
+          "type": "module",
+          "moduleType": "javascript/auto",
+          "layer": null,
+          "size": 64,
+          "sizes": {
+            "javascript": 64
+          },
+          "built": true,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/css-loader/dist/runtime/noSourceMaps.js",
+          "name": "./node_modules/css-loader/dist/runtime/noSourceMaps.js",
+          "nameForCondition": "/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/css-loader/dist/runtime/noSourceMaps.js",
+          "index": 9,
+          "preOrderIndex": 9,
+          "index2": 6,
+          "postOrderIndex": 6,
+          "cacheable": true,
+          "optional": false,
+          "orphan": false,
+          "dependent": true,
+          "issuer": "/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/css-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/sass-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/src/style.scss",
+          "issuerName": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/style.scss",
+          "issuerPath": [
+            {
+              "identifier": "/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/ts-loader/index.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/src/index.ts",
+              "name": "./src/index.ts",
+              "id": "./src/index.ts"
+            },
+            {
+              "identifier": "/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/style-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/css-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/sass-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/src/style.scss",
+              "name": "./src/style.scss",
+              "id": "./src/style.scss"
+            },
+            {
+              "identifier": "/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/css-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/sass-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/src/style.scss",
+              "name": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/style.scss",
+              "id": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/style.scss"
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "./node_modules/css-loader/dist/runtime/noSourceMaps.js",
+          "issuerId": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/style.scss",
+          "chunks": [
+            "main"
+          ],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": "/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/css-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/sass-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/src/style.scss",
+              "module": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/style.scss",
+              "moduleName": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/style.scss",
+              "resolvedModuleIdentifier": "/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/css-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/sass-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/src/style.scss",
+              "resolvedModule": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/style.scss",
+              "type": "harmony side effect evaluation",
+              "active": true,
+              "explanation": "",
+              "userRequest": "../node_modules/css-loader/dist/runtime/noSourceMaps.js",
+              "loc": "2:0-111",
+              "moduleId": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/style.scss",
+              "resolvedModuleId": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/style.scss"
+            },
+            {
+              "moduleIdentifier": "/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/css-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/sass-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/src/style.scss",
+              "module": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/style.scss",
+              "moduleName": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/style.scss",
+              "resolvedModuleIdentifier": "/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/css-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/sass-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/src/style.scss",
+              "resolvedModule": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/style.scss",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "../node_modules/css-loader/dist/runtime/noSourceMaps.js",
+              "loc": "4:58-98",
+              "moduleId": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/style.scss",
+              "resolvedModuleId": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/style.scss"
+            },
+            {
+              "moduleIdentifier": "/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/css-loader/dist/runtime/noSourceMaps.js",
+              "module": "./node_modules/css-loader/dist/runtime/noSourceMaps.js",
+              "moduleName": "./node_modules/css-loader/dist/runtime/noSourceMaps.js",
+              "resolvedModuleIdentifier": "/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/css-loader/dist/runtime/noSourceMaps.js",
+              "resolvedModule": "./node_modules/css-loader/dist/runtime/noSourceMaps.js",
+              "type": "cjs self exports reference",
+              "active": true,
+              "explanation": "",
+              "userRequest": null,
+              "loc": "3:0-14",
+              "moduleId": "./node_modules/css-loader/dist/runtime/noSourceMaps.js",
+              "resolvedModuleId": "./node_modules/css-loader/dist/runtime/noSourceMaps.js"
+            }
+          ],
+          "usedExports": null,
+          "providedExports": null,
+          "optimizationBailout": [
+            "CommonJS bailout: module.exports is used directly at 3:0-14"
+          ],
+          "depth": 3
+        },
+        {
+          "type": "module",
+          "moduleType": "javascript/auto",
+          "layer": null,
+          "size": 2480,
+          "sizes": {
+            "javascript": 2480
+          },
+          "built": true,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js",
+          "name": "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js",
+          "nameForCondition": "/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js",
+          "index": 2,
+          "preOrderIndex": 2,
+          "index2": 0,
+          "postOrderIndex": 0,
+          "cacheable": true,
+          "optional": false,
+          "orphan": false,
+          "dependent": true,
+          "issuer": "/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/style-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/css-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/sass-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/src/style.scss",
+          "issuerName": "./src/style.scss",
+          "issuerPath": [
+            {
+              "identifier": "/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/ts-loader/index.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/src/index.ts",
+              "name": "./src/index.ts",
+              "id": "./src/index.ts"
+            },
+            {
+              "identifier": "/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/style-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/css-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/sass-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/src/style.scss",
+              "name": "./src/style.scss",
+              "id": "./src/style.scss"
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js",
+          "issuerId": "./src/style.scss",
+          "chunks": [
+            "main"
+          ],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": "/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/style-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/css-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/sass-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/src/style.scss",
+              "module": "./src/style.scss",
+              "moduleName": "./src/style.scss",
+              "resolvedModuleIdentifier": "/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/style-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/css-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/sass-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/src/style.scss",
+              "resolvedModule": "./src/style.scss",
+              "type": "harmony side effect evaluation",
+              "active": true,
+              "explanation": "",
+              "userRequest": "!../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js",
+              "loc": "2:6-95",
+              "moduleId": "./src/style.scss",
+              "resolvedModuleId": "./src/style.scss"
+            },
+            {
+              "moduleIdentifier": "/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/style-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/css-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/sass-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/src/style.scss",
+              "module": "./src/style.scss",
+              "moduleName": "./src/style.scss",
+              "resolvedModuleIdentifier": "/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/style-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/css-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/sass-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/src/style.scss",
+              "resolvedModule": "./src/style.scss",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "!../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js",
+              "loc": "22:13-16",
+              "moduleId": "./src/style.scss",
+              "resolvedModuleId": "./src/style.scss"
+            },
+            {
+              "moduleIdentifier": "/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js",
+              "module": "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js",
+              "moduleName": "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js",
+              "resolvedModuleIdentifier": "/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js",
+              "resolvedModule": "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js",
+              "type": "cjs self exports reference",
+              "active": true,
+              "explanation": "",
+              "userRequest": null,
+              "loc": "62:0-14",
+              "moduleId": "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js",
+              "resolvedModuleId": "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js"
+            }
+          ],
+          "usedExports": null,
+          "providedExports": null,
+          "optimizationBailout": [
+            "CommonJS bailout: module.exports is used directly at 62:0-14"
+          ],
+          "depth": 2
+        },
+        {
+          "type": "module",
+          "moduleType": "javascript/auto",
+          "layer": null,
+          "size": 1003,
+          "sizes": {
+            "javascript": 1003
+          },
+          "built": true,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/style-loader/dist/runtime/insertBySelector.js",
+          "name": "./node_modules/style-loader/dist/runtime/insertBySelector.js",
+          "nameForCondition": "/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/style-loader/dist/runtime/insertBySelector.js",
+          "index": 4,
+          "preOrderIndex": 4,
+          "index2": 2,
+          "postOrderIndex": 2,
+          "cacheable": true,
+          "optional": false,
+          "orphan": false,
+          "dependent": true,
+          "issuer": "/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/style-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/css-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/sass-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/src/style.scss",
+          "issuerName": "./src/style.scss",
+          "issuerPath": [
+            {
+              "identifier": "/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/ts-loader/index.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/src/index.ts",
+              "name": "./src/index.ts",
+              "id": "./src/index.ts"
+            },
+            {
+              "identifier": "/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/style-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/css-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/sass-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/src/style.scss",
+              "name": "./src/style.scss",
+              "id": "./src/style.scss"
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "./node_modules/style-loader/dist/runtime/insertBySelector.js",
+          "issuerId": "./src/style.scss",
+          "chunks": [
+            "main"
+          ],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": "/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/style-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/css-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/sass-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/src/style.scss",
+              "module": "./src/style.scss",
+              "moduleName": "./src/style.scss",
+              "resolvedModuleIdentifier": "/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/style-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/css-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/sass-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/src/style.scss",
+              "resolvedModule": "./src/style.scss",
+              "type": "harmony side effect evaluation",
+              "active": true,
+              "explanation": "",
+              "userRequest": "!../node_modules/style-loader/dist/runtime/insertBySelector.js",
+              "loc": "4:6-92",
+              "moduleId": "./src/style.scss",
+              "resolvedModuleId": "./src/style.scss"
+            },
+            {
+              "moduleIdentifier": "/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/style-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/css-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/sass-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/src/style.scss",
+              "module": "./src/style.scss",
+              "moduleName": "./src/style.scss",
+              "resolvedModuleIdentifier": "/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/style-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/css-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/sass-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/src/style.scss",
+              "resolvedModule": "./src/style.scss",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "!../node_modules/style-loader/dist/runtime/insertBySelector.js",
+              "loc": "17:23-36",
+              "moduleId": "./src/style.scss",
+              "resolvedModuleId": "./src/style.scss"
+            },
+            {
+              "moduleIdentifier": "/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/style-loader/dist/runtime/insertBySelector.js",
+              "module": "./node_modules/style-loader/dist/runtime/insertBySelector.js",
+              "moduleName": "./node_modules/style-loader/dist/runtime/insertBySelector.js",
+              "resolvedModuleIdentifier": "/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/style-loader/dist/runtime/insertBySelector.js",
+              "resolvedModule": "./node_modules/style-loader/dist/runtime/insertBySelector.js",
+              "type": "cjs self exports reference",
+              "active": true,
+              "explanation": "",
+              "userRequest": null,
+              "loc": "34:0-14",
+              "moduleId": "./node_modules/style-loader/dist/runtime/insertBySelector.js",
+              "resolvedModuleId": "./node_modules/style-loader/dist/runtime/insertBySelector.js"
+            }
+          ],
+          "usedExports": null,
+          "providedExports": null,
+          "optimizationBailout": [
+            "CommonJS bailout: module.exports is used directly at 34:0-14"
+          ],
+          "depth": 2
+        },
+        {
+          "type": "module",
+          "moduleType": "javascript/auto",
+          "layer": null,
+          "size": 285,
+          "sizes": {
+            "javascript": 285
+          },
+          "built": true,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/style-loader/dist/runtime/insertStyleElement.js",
+          "name": "./node_modules/style-loader/dist/runtime/insertStyleElement.js",
+          "nameForCondition": "/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/style-loader/dist/runtime/insertStyleElement.js",
+          "index": 6,
+          "preOrderIndex": 6,
+          "index2": 4,
+          "postOrderIndex": 4,
+          "cacheable": true,
+          "optional": false,
+          "orphan": false,
+          "dependent": true,
+          "issuer": "/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/style-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/css-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/sass-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/src/style.scss",
+          "issuerName": "./src/style.scss",
+          "issuerPath": [
+            {
+              "identifier": "/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/ts-loader/index.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/src/index.ts",
+              "name": "./src/index.ts",
+              "id": "./src/index.ts"
+            },
+            {
+              "identifier": "/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/style-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/css-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/sass-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/src/style.scss",
+              "name": "./src/style.scss",
+              "id": "./src/style.scss"
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "./node_modules/style-loader/dist/runtime/insertStyleElement.js",
+          "issuerId": "./src/style.scss",
+          "chunks": [
+            "main"
+          ],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": "/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/style-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/css-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/sass-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/src/style.scss",
+              "module": "./src/style.scss",
+              "moduleName": "./src/style.scss",
+              "resolvedModuleIdentifier": "/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/style-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/css-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/sass-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/src/style.scss",
+              "resolvedModule": "./src/style.scss",
+              "type": "harmony side effect evaluation",
+              "active": true,
+              "explanation": "",
+              "userRequest": "!../node_modules/style-loader/dist/runtime/insertStyleElement.js",
+              "loc": "6:6-104",
+              "moduleId": "./src/style.scss",
+              "resolvedModuleId": "./src/style.scss"
+            },
+            {
+              "moduleIdentifier": "/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/style-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/css-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/sass-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/src/style.scss",
+              "module": "./src/style.scss",
+              "moduleName": "./src/style.scss",
+              "resolvedModuleIdentifier": "/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/style-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/css-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/sass-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/src/style.scss",
+              "resolvedModule": "./src/style.scss",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "!../node_modules/style-loader/dist/runtime/insertStyleElement.js",
+              "loc": "20:29-47",
+              "moduleId": "./src/style.scss",
+              "resolvedModuleId": "./src/style.scss"
+            },
+            {
+              "moduleIdentifier": "/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/style-loader/dist/runtime/insertStyleElement.js",
+              "module": "./node_modules/style-loader/dist/runtime/insertStyleElement.js",
+              "moduleName": "./node_modules/style-loader/dist/runtime/insertStyleElement.js",
+              "resolvedModuleIdentifier": "/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/style-loader/dist/runtime/insertStyleElement.js",
+              "resolvedModule": "./node_modules/style-loader/dist/runtime/insertStyleElement.js",
+              "type": "cjs self exports reference",
+              "active": true,
+              "explanation": "",
+              "userRequest": null,
+              "loc": "10:0-14",
+              "moduleId": "./node_modules/style-loader/dist/runtime/insertStyleElement.js",
+              "resolvedModuleId": "./node_modules/style-loader/dist/runtime/insertStyleElement.js"
+            }
+          ],
+          "usedExports": null,
+          "providedExports": null,
+          "optimizationBailout": [
+            "CommonJS bailout: module.exports is used directly at 10:0-14"
+          ],
+          "depth": 2
+        },
+        {
+          "type": "module",
+          "moduleType": "javascript/auto",
+          "layer": null,
+          "size": 298,
+          "sizes": {
+            "javascript": 298
+          },
+          "built": true,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js",
+          "name": "./node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js",
+          "nameForCondition": "/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js",
+          "index": 5,
+          "preOrderIndex": 5,
+          "index2": 3,
+          "postOrderIndex": 3,
+          "cacheable": true,
+          "optional": false,
+          "orphan": false,
+          "dependent": true,
+          "issuer": "/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/style-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/css-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/sass-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/src/style.scss",
+          "issuerName": "./src/style.scss",
+          "issuerPath": [
+            {
+              "identifier": "/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/ts-loader/index.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/src/index.ts",
+              "name": "./src/index.ts",
+              "id": "./src/index.ts"
+            },
+            {
+              "identifier": "/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/style-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/css-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/sass-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/src/style.scss",
+              "name": "./src/style.scss",
+              "id": "./src/style.scss"
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "./node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js",
+          "issuerId": "./src/style.scss",
+          "chunks": [
+            "main"
+          ],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": "/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/style-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/css-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/sass-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/src/style.scss",
+              "module": "./src/style.scss",
+              "moduleName": "./src/style.scss",
+              "resolvedModuleIdentifier": "/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/style-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/css-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/sass-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/src/style.scss",
+              "resolvedModule": "./src/style.scss",
+              "type": "harmony side effect evaluation",
+              "active": true,
+              "explanation": "",
+              "userRequest": "!../node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js",
+              "loc": "5:6-111",
+              "moduleId": "./src/style.scss",
+              "resolvedModuleId": "./src/style.scss"
+            },
+            {
+              "moduleIdentifier": "/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/style-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/css-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/sass-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/src/style.scss",
+              "module": "./src/style.scss",
+              "moduleName": "./src/style.scss",
+              "resolvedModuleIdentifier": "/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/style-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/css-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/sass-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/src/style.scss",
+              "resolvedModule": "./src/style.scss",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "!../node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js",
+              "loc": "15:24-37",
+              "moduleId": "./src/style.scss",
+              "resolvedModuleId": "./src/style.scss"
+            },
+            {
+              "moduleIdentifier": "/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js",
+              "module": "./node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js",
+              "moduleName": "./node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js",
+              "resolvedModuleIdentifier": "/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js",
+              "resolvedModule": "./node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js",
+              "type": "cjs self exports reference",
+              "active": true,
+              "explanation": "",
+              "userRequest": null,
+              "loc": "10:0-14",
+              "moduleId": "./node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js",
+              "resolvedModuleId": "./node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js"
+            }
+          ],
+          "usedExports": null,
+          "providedExports": null,
+          "optimizationBailout": [
+            "CommonJS bailout: module.exports is used directly at 10:0-14"
+          ],
+          "depth": 2
+        },
+        {
+          "type": "module",
+          "moduleType": "javascript/auto",
+          "layer": null,
+          "size": 1534,
+          "sizes": {
+            "javascript": 1534
+          },
+          "built": true,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/style-loader/dist/runtime/styleDomAPI.js",
+          "name": "./node_modules/style-loader/dist/runtime/styleDomAPI.js",
+          "nameForCondition": "/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/style-loader/dist/runtime/styleDomAPI.js",
+          "index": 3,
+          "preOrderIndex": 3,
+          "index2": 1,
+          "postOrderIndex": 1,
+          "cacheable": true,
+          "optional": false,
+          "orphan": false,
+          "dependent": true,
+          "issuer": "/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/style-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/css-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/sass-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/src/style.scss",
+          "issuerName": "./src/style.scss",
+          "issuerPath": [
+            {
+              "identifier": "/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/ts-loader/index.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/src/index.ts",
+              "name": "./src/index.ts",
+              "id": "./src/index.ts"
+            },
+            {
+              "identifier": "/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/style-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/css-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/sass-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/src/style.scss",
+              "name": "./src/style.scss",
+              "id": "./src/style.scss"
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "./node_modules/style-loader/dist/runtime/styleDomAPI.js",
+          "issuerId": "./src/style.scss",
+          "chunks": [
+            "main"
+          ],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": "/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/style-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/css-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/sass-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/src/style.scss",
+              "module": "./src/style.scss",
+              "moduleName": "./src/style.scss",
+              "resolvedModuleIdentifier": "/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/style-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/css-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/sass-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/src/style.scss",
+              "resolvedModule": "./src/style.scss",
+              "type": "harmony side effect evaluation",
+              "active": true,
+              "explanation": "",
+              "userRequest": "!../node_modules/style-loader/dist/runtime/styleDomAPI.js",
+              "loc": "3:6-85",
+              "moduleId": "./src/style.scss",
+              "resolvedModuleId": "./src/style.scss"
+            },
+            {
+              "moduleIdentifier": "/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/style-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/css-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/sass-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/src/style.scss",
+              "module": "./src/style.scss",
+              "moduleName": "./src/style.scss",
+              "resolvedModuleIdentifier": "/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/style-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/css-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/sass-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/src/style.scss",
+              "resolvedModule": "./src/style.scss",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "!../node_modules/style-loader/dist/runtime/styleDomAPI.js",
+              "loc": "19:17-23",
+              "moduleId": "./src/style.scss",
+              "resolvedModuleId": "./src/style.scss"
+            },
+            {
+              "moduleIdentifier": "/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/style-loader/dist/runtime/styleDomAPI.js",
+              "module": "./node_modules/style-loader/dist/runtime/styleDomAPI.js",
+              "moduleName": "./node_modules/style-loader/dist/runtime/styleDomAPI.js",
+              "resolvedModuleIdentifier": "/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/style-loader/dist/runtime/styleDomAPI.js",
+              "resolvedModule": "./node_modules/style-loader/dist/runtime/styleDomAPI.js",
+              "type": "cjs self exports reference",
+              "active": true,
+              "explanation": "",
+              "userRequest": null,
+              "loc": "61:0-14",
+              "moduleId": "./node_modules/style-loader/dist/runtime/styleDomAPI.js",
+              "resolvedModuleId": "./node_modules/style-loader/dist/runtime/styleDomAPI.js"
+            }
+          ],
+          "usedExports": null,
+          "providedExports": null,
+          "optimizationBailout": [
+            "CommonJS bailout: module.exports is used directly at 61:0-14"
+          ],
+          "depth": 2
+        },
+        {
+          "type": "module",
+          "moduleType": "javascript/auto",
+          "layer": null,
+          "size": 380,
+          "sizes": {
+            "javascript": 380
+          },
+          "built": true,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/style-loader/dist/runtime/styleTagTransform.js",
+          "name": "./node_modules/style-loader/dist/runtime/styleTagTransform.js",
+          "nameForCondition": "/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/style-loader/dist/runtime/styleTagTransform.js",
+          "index": 7,
+          "preOrderIndex": 7,
+          "index2": 5,
+          "postOrderIndex": 5,
+          "cacheable": true,
+          "optional": false,
+          "orphan": false,
+          "dependent": true,
+          "issuer": "/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/style-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/css-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/sass-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/src/style.scss",
+          "issuerName": "./src/style.scss",
+          "issuerPath": [
+            {
+              "identifier": "/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/ts-loader/index.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/src/index.ts",
+              "name": "./src/index.ts",
+              "id": "./src/index.ts"
+            },
+            {
+              "identifier": "/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/style-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/css-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/sass-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/src/style.scss",
+              "name": "./src/style.scss",
+              "id": "./src/style.scss"
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "./node_modules/style-loader/dist/runtime/styleTagTransform.js",
+          "issuerId": "./src/style.scss",
+          "chunks": [
+            "main"
+          ],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": "/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/style-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/css-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/sass-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/src/style.scss",
+              "module": "./src/style.scss",
+              "moduleName": "./src/style.scss",
+              "resolvedModuleIdentifier": "/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/style-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/css-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/sass-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/src/style.scss",
+              "resolvedModule": "./src/style.scss",
+              "type": "harmony side effect evaluation",
+              "active": true,
+              "explanation": "",
+              "userRequest": "!../node_modules/style-loader/dist/runtime/styleTagTransform.js",
+              "loc": "7:6-104",
+              "moduleId": "./src/style.scss",
+              "resolvedModuleId": "./src/style.scss"
+            },
+            {
+              "moduleIdentifier": "/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/style-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/css-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/sass-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/src/style.scss",
+              "module": "./src/style.scss",
+              "moduleName": "./src/style.scss",
+              "resolvedModuleIdentifier": "/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/style-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/css-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/sass-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/src/style.scss",
+              "resolvedModule": "./src/style.scss",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "!../node_modules/style-loader/dist/runtime/styleTagTransform.js",
+              "loc": "14:28-47",
+              "moduleId": "./src/style.scss",
+              "resolvedModuleId": "./src/style.scss"
+            },
+            {
+              "moduleIdentifier": "/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/style-loader/dist/runtime/styleTagTransform.js",
+              "module": "./node_modules/style-loader/dist/runtime/styleTagTransform.js",
+              "moduleName": "./node_modules/style-loader/dist/runtime/styleTagTransform.js",
+              "resolvedModuleIdentifier": "/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/style-loader/dist/runtime/styleTagTransform.js",
+              "resolvedModule": "./node_modules/style-loader/dist/runtime/styleTagTransform.js",
+              "type": "cjs self exports reference",
+              "active": true,
+              "explanation": "",
+              "userRequest": null,
+              "loc": "14:0-14",
+              "moduleId": "./node_modules/style-loader/dist/runtime/styleTagTransform.js",
+              "resolvedModuleId": "./node_modules/style-loader/dist/runtime/styleTagTransform.js"
+            }
+          ],
+          "usedExports": null,
+          "providedExports": null,
+          "optimizationBailout": [
+            "CommonJS bailout: module.exports is used directly at 14:0-14"
+          ],
+          "depth": 2
+        },
+        {
+          "type": "module",
+          "moduleType": "javascript/auto",
+          "layer": null,
+          "size": 157,
+          "sizes": {
+            "javascript": 157
+          },
+          "built": true,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/ts-loader/index.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/src/index.ts",
+          "name": "./src/index.ts",
+          "nameForCondition": "/Users/facundo/Documents/Master-Front/modulo-03-bundling/src/index.ts",
+          "index": 0,
+          "preOrderIndex": 0,
+          "index2": 10,
+          "postOrderIndex": 10,
+          "cacheable": true,
+          "optional": false,
+          "orphan": false,
+          "dependent": false,
+          "issuer": null,
+          "issuerName": null,
+          "issuerPath": null,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "./src/index.ts",
+          "issuerId": null,
+          "chunks": [
+            "main"
+          ],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": null,
+              "module": null,
+              "moduleName": null,
+              "resolvedModuleIdentifier": null,
+              "resolvedModule": null,
+              "type": "entry",
+              "active": true,
+              "explanation": "",
+              "userRequest": "./src/index.ts",
+              "loc": "main",
+              "moduleId": null,
+              "resolvedModuleId": null
+            }
+          ],
+          "usedExports": null,
+          "providedExports": [
+            "__esModule"
+          ],
+          "optimizationBailout": [],
+          "depth": 0
+        },
+        {
+          "type": "module",
+          "moduleType": "javascript/auto",
+          "layer": null,
+          "size": 1222,
+          "sizes": {
+            "javascript": 1222
+          },
+          "built": true,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/style-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/css-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/sass-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/src/style.scss",
+          "name": "./src/style.scss",
+          "nameForCondition": "/Users/facundo/Documents/Master-Front/modulo-03-bundling/src/style.scss",
+          "index": 1,
+          "preOrderIndex": 1,
+          "index2": 9,
+          "postOrderIndex": 9,
+          "cacheable": true,
+          "optional": false,
+          "orphan": false,
+          "dependent": true,
+          "issuer": "/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/ts-loader/index.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/src/index.ts",
+          "issuerName": "./src/index.ts",
+          "issuerPath": [
+            {
+              "identifier": "/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/ts-loader/index.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/src/index.ts",
+              "name": "./src/index.ts",
+              "id": "./src/index.ts"
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "./src/style.scss",
+          "issuerId": "./src/index.ts",
+          "chunks": [
+            "main"
+          ],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": "/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/ts-loader/index.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/src/index.ts",
+              "module": "./src/index.ts",
+              "moduleName": "./src/index.ts",
+              "resolvedModuleIdentifier": "/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/ts-loader/index.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/src/index.ts",
+              "resolvedModule": "./src/index.ts",
+              "type": "cjs require",
+              "active": true,
+              "explanation": "",
+              "userRequest": "./style.scss",
+              "loc": "3:0-23",
+              "moduleId": "./src/index.ts",
+              "resolvedModuleId": "./src/index.ts"
+            }
+          ],
+          "usedExports": null,
+          "providedExports": [
+            "default"
+          ],
+          "optimizationBailout": [],
+          "depth": 1
+        },
+        {
+          "type": "module",
+          "moduleType": "runtime",
+          "layer": null,
+          "size": 267,
+          "sizes": {
+            "runtime": 267
+          },
+          "built": false,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "webpack/runtime/compat get default export",
+          "name": "webpack/runtime/compat get default export",
+          "nameForCondition": null,
+          "index": null,
+          "preOrderIndex": null,
+          "index2": null,
+          "postOrderIndex": null,
+          "optional": false,
+          "orphan": false,
+          "dependent": false,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "",
+          "chunks": [
+            "main"
+          ],
+          "assets": [],
+          "reasons": [],
+          "usedExports": null,
+          "providedExports": [],
+          "optimizationBailout": [],
+          "depth": null
+        },
+        {
+          "type": "module",
+          "moduleType": "runtime",
+          "layer": null,
+          "size": 308,
+          "sizes": {
+            "runtime": 308
+          },
+          "built": false,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "webpack/runtime/define property getters",
+          "name": "webpack/runtime/define property getters",
+          "nameForCondition": null,
+          "index": null,
+          "preOrderIndex": null,
+          "index2": null,
+          "postOrderIndex": null,
+          "optional": false,
+          "orphan": false,
+          "dependent": false,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "",
+          "chunks": [
+            "main"
+          ],
+          "assets": [],
+          "reasons": [],
+          "usedExports": null,
+          "providedExports": [],
+          "optimizationBailout": [],
+          "depth": null
+        },
+        {
+          "type": "module",
+          "moduleType": "runtime",
+          "layer": null,
+          "size": 88,
+          "sizes": {
+            "runtime": 88
+          },
+          "built": false,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "webpack/runtime/hasOwnProperty shorthand",
+          "name": "webpack/runtime/hasOwnProperty shorthand",
+          "nameForCondition": null,
+          "index": null,
+          "preOrderIndex": null,
+          "index2": null,
+          "postOrderIndex": null,
+          "optional": false,
+          "orphan": false,
+          "dependent": false,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "",
+          "chunks": [
+            "main"
+          ],
+          "assets": [],
+          "reasons": [],
+          "usedExports": null,
+          "providedExports": [],
+          "optimizationBailout": [],
+          "depth": null
+        },
+        {
+          "type": "module",
+          "moduleType": "runtime",
+          "layer": null,
+          "size": 274,
+          "sizes": {
+            "runtime": 274
+          },
+          "built": false,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "webpack/runtime/make namespace object",
+          "name": "webpack/runtime/make namespace object",
+          "nameForCondition": null,
+          "index": null,
+          "preOrderIndex": null,
+          "index2": null,
+          "postOrderIndex": null,
+          "optional": false,
+          "orphan": false,
+          "dependent": false,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "",
+          "chunks": [
+            "main"
+          ],
+          "assets": [],
+          "reasons": [],
+          "usedExports": null,
+          "providedExports": [],
+          "optimizationBailout": [],
+          "depth": null
+        },
+        {
+          "type": "module",
+          "moduleType": "runtime",
+          "layer": null,
+          "size": 35,
+          "sizes": {
+            "runtime": 35
+          },
+          "built": false,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "webpack/runtime/nonce",
+          "name": "webpack/runtime/nonce",
+          "nameForCondition": null,
+          "index": null,
+          "preOrderIndex": null,
+          "index2": null,
+          "postOrderIndex": null,
+          "optional": false,
+          "orphan": false,
+          "dependent": false,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "",
+          "chunks": [
+            "main"
+          ],
+          "assets": [],
+          "reasons": [],
+          "usedExports": null,
+          "providedExports": [],
+          "optimizationBailout": [],
+          "depth": null
+        }
+      ],
+      "origins": [
+        {
+          "module": "",
+          "moduleIdentifier": "",
+          "moduleName": "",
+          "loc": "main",
+          "request": "./src/index.ts"
+        }
+      ]
+    }
+  ],
+  "modules": [
+    {
+      "type": "module",
+      "moduleType": "javascript/auto",
+      "layer": null,
+      "size": 157,
+      "sizes": {
+        "javascript": 157
+      },
+      "built": true,
+      "codeGenerated": true,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/ts-loader/index.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/src/index.ts",
+      "name": "./src/index.ts",
+      "nameForCondition": "/Users/facundo/Documents/Master-Front/modulo-03-bundling/src/index.ts",
+      "index": 0,
+      "preOrderIndex": 0,
+      "index2": 10,
+      "postOrderIndex": 10,
+      "cacheable": true,
+      "optional": false,
+      "orphan": false,
+      "issuer": null,
+      "issuerName": null,
+      "issuerPath": null,
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": "./src/index.ts",
+      "issuerId": null,
+      "chunks": [
+        "main"
+      ],
+      "assets": [],
+      "reasons": [
+        {
+          "moduleIdentifier": null,
+          "module": null,
+          "moduleName": null,
+          "resolvedModuleIdentifier": null,
+          "resolvedModule": null,
+          "type": "entry",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./src/index.ts",
+          "loc": "main",
+          "moduleId": null,
+          "resolvedModuleId": null
+        }
+      ],
+      "usedExports": null,
+      "providedExports": [
+        "__esModule"
+      ],
+      "optimizationBailout": [],
+      "depth": 0
+    },
+    {
+      "type": "module",
+      "moduleType": "javascript/auto",
+      "layer": null,
+      "size": 1222,
+      "sizes": {
+        "javascript": 1222
+      },
+      "built": true,
+      "codeGenerated": true,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/style-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/css-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/sass-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/src/style.scss",
+      "name": "./src/style.scss",
+      "nameForCondition": "/Users/facundo/Documents/Master-Front/modulo-03-bundling/src/style.scss",
+      "index": 1,
+      "preOrderIndex": 1,
+      "index2": 9,
+      "postOrderIndex": 9,
+      "cacheable": true,
+      "optional": false,
+      "orphan": false,
+      "issuer": "/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/ts-loader/index.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/src/index.ts",
+      "issuerName": "./src/index.ts",
+      "issuerPath": [
+        {
+          "identifier": "/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/ts-loader/index.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/src/index.ts",
+          "name": "./src/index.ts",
+          "id": "./src/index.ts"
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": "./src/style.scss",
+      "issuerId": "./src/index.ts",
+      "chunks": [
+        "main"
+      ],
+      "assets": [],
+      "reasons": [
+        {
+          "moduleIdentifier": "/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/ts-loader/index.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/src/index.ts",
+          "module": "./src/index.ts",
+          "moduleName": "./src/index.ts",
+          "resolvedModuleIdentifier": "/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/ts-loader/index.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/src/index.ts",
+          "resolvedModule": "./src/index.ts",
+          "type": "cjs require",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./style.scss",
+          "loc": "3:0-23",
+          "moduleId": "./src/index.ts",
+          "resolvedModuleId": "./src/index.ts"
+        }
+      ],
+      "usedExports": null,
+      "providedExports": [
+        "default"
+      ],
+      "optimizationBailout": [],
+      "depth": 1
+    },
+    {
+      "type": "module",
+      "moduleType": "javascript/auto",
+      "layer": null,
+      "size": 2480,
+      "sizes": {
+        "javascript": 2480
+      },
+      "built": true,
+      "codeGenerated": true,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js",
+      "name": "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js",
+      "nameForCondition": "/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js",
+      "index": 2,
+      "preOrderIndex": 2,
+      "index2": 0,
+      "postOrderIndex": 0,
+      "cacheable": true,
+      "optional": false,
+      "orphan": false,
+      "issuer": "/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/style-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/css-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/sass-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/src/style.scss",
+      "issuerName": "./src/style.scss",
+      "issuerPath": [
+        {
+          "identifier": "/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/ts-loader/index.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/src/index.ts",
+          "name": "./src/index.ts",
+          "id": "./src/index.ts"
+        },
+        {
+          "identifier": "/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/style-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/css-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/sass-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/src/style.scss",
+          "name": "./src/style.scss",
+          "id": "./src/style.scss"
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js",
+      "issuerId": "./src/style.scss",
+      "chunks": [
+        "main"
+      ],
+      "assets": [],
+      "reasons": [
+        {
+          "moduleIdentifier": "/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/style-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/css-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/sass-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/src/style.scss",
+          "module": "./src/style.scss",
+          "moduleName": "./src/style.scss",
+          "resolvedModuleIdentifier": "/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/style-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/css-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/sass-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/src/style.scss",
+          "resolvedModule": "./src/style.scss",
+          "type": "harmony side effect evaluation",
+          "active": true,
+          "explanation": "",
+          "userRequest": "!../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js",
+          "loc": "2:6-95",
+          "moduleId": "./src/style.scss",
+          "resolvedModuleId": "./src/style.scss"
+        },
+        {
+          "moduleIdentifier": "/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/style-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/css-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/sass-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/src/style.scss",
+          "module": "./src/style.scss",
+          "moduleName": "./src/style.scss",
+          "resolvedModuleIdentifier": "/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/style-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/css-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/sass-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/src/style.scss",
+          "resolvedModule": "./src/style.scss",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "!../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js",
+          "loc": "22:13-16",
+          "moduleId": "./src/style.scss",
+          "resolvedModuleId": "./src/style.scss"
+        },
+        {
+          "moduleIdentifier": "/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js",
+          "module": "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js",
+          "moduleName": "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js",
+          "resolvedModuleIdentifier": "/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js",
+          "resolvedModule": "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js",
+          "type": "cjs self exports reference",
+          "active": true,
+          "explanation": "",
+          "userRequest": null,
+          "loc": "62:0-14",
+          "moduleId": "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js",
+          "resolvedModuleId": "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js"
+        }
+      ],
+      "usedExports": null,
+      "providedExports": null,
+      "optimizationBailout": [
+        "CommonJS bailout: module.exports is used directly at 62:0-14"
+      ],
+      "depth": 2
+    },
+    {
+      "type": "module",
+      "moduleType": "javascript/auto",
+      "layer": null,
+      "size": 1534,
+      "sizes": {
+        "javascript": 1534
+      },
+      "built": true,
+      "codeGenerated": true,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/style-loader/dist/runtime/styleDomAPI.js",
+      "name": "./node_modules/style-loader/dist/runtime/styleDomAPI.js",
+      "nameForCondition": "/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/style-loader/dist/runtime/styleDomAPI.js",
+      "index": 3,
+      "preOrderIndex": 3,
+      "index2": 1,
+      "postOrderIndex": 1,
+      "cacheable": true,
+      "optional": false,
+      "orphan": false,
+      "issuer": "/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/style-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/css-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/sass-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/src/style.scss",
+      "issuerName": "./src/style.scss",
+      "issuerPath": [
+        {
+          "identifier": "/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/ts-loader/index.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/src/index.ts",
+          "name": "./src/index.ts",
+          "id": "./src/index.ts"
+        },
+        {
+          "identifier": "/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/style-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/css-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/sass-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/src/style.scss",
+          "name": "./src/style.scss",
+          "id": "./src/style.scss"
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": "./node_modules/style-loader/dist/runtime/styleDomAPI.js",
+      "issuerId": "./src/style.scss",
+      "chunks": [
+        "main"
+      ],
+      "assets": [],
+      "reasons": [
+        {
+          "moduleIdentifier": "/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/style-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/css-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/sass-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/src/style.scss",
+          "module": "./src/style.scss",
+          "moduleName": "./src/style.scss",
+          "resolvedModuleIdentifier": "/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/style-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/css-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/sass-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/src/style.scss",
+          "resolvedModule": "./src/style.scss",
+          "type": "harmony side effect evaluation",
+          "active": true,
+          "explanation": "",
+          "userRequest": "!../node_modules/style-loader/dist/runtime/styleDomAPI.js",
+          "loc": "3:6-85",
+          "moduleId": "./src/style.scss",
+          "resolvedModuleId": "./src/style.scss"
+        },
+        {
+          "moduleIdentifier": "/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/style-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/css-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/sass-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/src/style.scss",
+          "module": "./src/style.scss",
+          "moduleName": "./src/style.scss",
+          "resolvedModuleIdentifier": "/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/style-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/css-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/sass-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/src/style.scss",
+          "resolvedModule": "./src/style.scss",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "!../node_modules/style-loader/dist/runtime/styleDomAPI.js",
+          "loc": "19:17-23",
+          "moduleId": "./src/style.scss",
+          "resolvedModuleId": "./src/style.scss"
+        },
+        {
+          "moduleIdentifier": "/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/style-loader/dist/runtime/styleDomAPI.js",
+          "module": "./node_modules/style-loader/dist/runtime/styleDomAPI.js",
+          "moduleName": "./node_modules/style-loader/dist/runtime/styleDomAPI.js",
+          "resolvedModuleIdentifier": "/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/style-loader/dist/runtime/styleDomAPI.js",
+          "resolvedModule": "./node_modules/style-loader/dist/runtime/styleDomAPI.js",
+          "type": "cjs self exports reference",
+          "active": true,
+          "explanation": "",
+          "userRequest": null,
+          "loc": "61:0-14",
+          "moduleId": "./node_modules/style-loader/dist/runtime/styleDomAPI.js",
+          "resolvedModuleId": "./node_modules/style-loader/dist/runtime/styleDomAPI.js"
+        }
+      ],
+      "usedExports": null,
+      "providedExports": null,
+      "optimizationBailout": [
+        "CommonJS bailout: module.exports is used directly at 61:0-14"
+      ],
+      "depth": 2
+    },
+    {
+      "type": "module",
+      "moduleType": "javascript/auto",
+      "layer": null,
+      "size": 1003,
+      "sizes": {
+        "javascript": 1003
+      },
+      "built": true,
+      "codeGenerated": true,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/style-loader/dist/runtime/insertBySelector.js",
+      "name": "./node_modules/style-loader/dist/runtime/insertBySelector.js",
+      "nameForCondition": "/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/style-loader/dist/runtime/insertBySelector.js",
+      "index": 4,
+      "preOrderIndex": 4,
+      "index2": 2,
+      "postOrderIndex": 2,
+      "cacheable": true,
+      "optional": false,
+      "orphan": false,
+      "issuer": "/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/style-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/css-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/sass-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/src/style.scss",
+      "issuerName": "./src/style.scss",
+      "issuerPath": [
+        {
+          "identifier": "/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/ts-loader/index.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/src/index.ts",
+          "name": "./src/index.ts",
+          "id": "./src/index.ts"
+        },
+        {
+          "identifier": "/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/style-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/css-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/sass-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/src/style.scss",
+          "name": "./src/style.scss",
+          "id": "./src/style.scss"
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": "./node_modules/style-loader/dist/runtime/insertBySelector.js",
+      "issuerId": "./src/style.scss",
+      "chunks": [
+        "main"
+      ],
+      "assets": [],
+      "reasons": [
+        {
+          "moduleIdentifier": "/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/style-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/css-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/sass-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/src/style.scss",
+          "module": "./src/style.scss",
+          "moduleName": "./src/style.scss",
+          "resolvedModuleIdentifier": "/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/style-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/css-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/sass-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/src/style.scss",
+          "resolvedModule": "./src/style.scss",
+          "type": "harmony side effect evaluation",
+          "active": true,
+          "explanation": "",
+          "userRequest": "!../node_modules/style-loader/dist/runtime/insertBySelector.js",
+          "loc": "4:6-92",
+          "moduleId": "./src/style.scss",
+          "resolvedModuleId": "./src/style.scss"
+        },
+        {
+          "moduleIdentifier": "/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/style-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/css-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/sass-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/src/style.scss",
+          "module": "./src/style.scss",
+          "moduleName": "./src/style.scss",
+          "resolvedModuleIdentifier": "/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/style-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/css-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/sass-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/src/style.scss",
+          "resolvedModule": "./src/style.scss",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "!../node_modules/style-loader/dist/runtime/insertBySelector.js",
+          "loc": "17:23-36",
+          "moduleId": "./src/style.scss",
+          "resolvedModuleId": "./src/style.scss"
+        },
+        {
+          "moduleIdentifier": "/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/style-loader/dist/runtime/insertBySelector.js",
+          "module": "./node_modules/style-loader/dist/runtime/insertBySelector.js",
+          "moduleName": "./node_modules/style-loader/dist/runtime/insertBySelector.js",
+          "resolvedModuleIdentifier": "/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/style-loader/dist/runtime/insertBySelector.js",
+          "resolvedModule": "./node_modules/style-loader/dist/runtime/insertBySelector.js",
+          "type": "cjs self exports reference",
+          "active": true,
+          "explanation": "",
+          "userRequest": null,
+          "loc": "34:0-14",
+          "moduleId": "./node_modules/style-loader/dist/runtime/insertBySelector.js",
+          "resolvedModuleId": "./node_modules/style-loader/dist/runtime/insertBySelector.js"
+        }
+      ],
+      "usedExports": null,
+      "providedExports": null,
+      "optimizationBailout": [
+        "CommonJS bailout: module.exports is used directly at 34:0-14"
+      ],
+      "depth": 2
+    },
+    {
+      "type": "module",
+      "moduleType": "javascript/auto",
+      "layer": null,
+      "size": 298,
+      "sizes": {
+        "javascript": 298
+      },
+      "built": true,
+      "codeGenerated": true,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js",
+      "name": "./node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js",
+      "nameForCondition": "/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js",
+      "index": 5,
+      "preOrderIndex": 5,
+      "index2": 3,
+      "postOrderIndex": 3,
+      "cacheable": true,
+      "optional": false,
+      "orphan": false,
+      "issuer": "/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/style-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/css-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/sass-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/src/style.scss",
+      "issuerName": "./src/style.scss",
+      "issuerPath": [
+        {
+          "identifier": "/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/ts-loader/index.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/src/index.ts",
+          "name": "./src/index.ts",
+          "id": "./src/index.ts"
+        },
+        {
+          "identifier": "/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/style-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/css-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/sass-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/src/style.scss",
+          "name": "./src/style.scss",
+          "id": "./src/style.scss"
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": "./node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js",
+      "issuerId": "./src/style.scss",
+      "chunks": [
+        "main"
+      ],
+      "assets": [],
+      "reasons": [
+        {
+          "moduleIdentifier": "/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/style-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/css-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/sass-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/src/style.scss",
+          "module": "./src/style.scss",
+          "moduleName": "./src/style.scss",
+          "resolvedModuleIdentifier": "/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/style-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/css-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/sass-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/src/style.scss",
+          "resolvedModule": "./src/style.scss",
+          "type": "harmony side effect evaluation",
+          "active": true,
+          "explanation": "",
+          "userRequest": "!../node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js",
+          "loc": "5:6-111",
+          "moduleId": "./src/style.scss",
+          "resolvedModuleId": "./src/style.scss"
+        },
+        {
+          "moduleIdentifier": "/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/style-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/css-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/sass-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/src/style.scss",
+          "module": "./src/style.scss",
+          "moduleName": "./src/style.scss",
+          "resolvedModuleIdentifier": "/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/style-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/css-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/sass-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/src/style.scss",
+          "resolvedModule": "./src/style.scss",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "!../node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js",
+          "loc": "15:24-37",
+          "moduleId": "./src/style.scss",
+          "resolvedModuleId": "./src/style.scss"
+        },
+        {
+          "moduleIdentifier": "/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js",
+          "module": "./node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js",
+          "moduleName": "./node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js",
+          "resolvedModuleIdentifier": "/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js",
+          "resolvedModule": "./node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js",
+          "type": "cjs self exports reference",
+          "active": true,
+          "explanation": "",
+          "userRequest": null,
+          "loc": "10:0-14",
+          "moduleId": "./node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js",
+          "resolvedModuleId": "./node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js"
+        }
+      ],
+      "usedExports": null,
+      "providedExports": null,
+      "optimizationBailout": [
+        "CommonJS bailout: module.exports is used directly at 10:0-14"
+      ],
+      "depth": 2
+    },
+    {
+      "type": "module",
+      "moduleType": "javascript/auto",
+      "layer": null,
+      "size": 285,
+      "sizes": {
+        "javascript": 285
+      },
+      "built": true,
+      "codeGenerated": true,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/style-loader/dist/runtime/insertStyleElement.js",
+      "name": "./node_modules/style-loader/dist/runtime/insertStyleElement.js",
+      "nameForCondition": "/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/style-loader/dist/runtime/insertStyleElement.js",
+      "index": 6,
+      "preOrderIndex": 6,
+      "index2": 4,
+      "postOrderIndex": 4,
+      "cacheable": true,
+      "optional": false,
+      "orphan": false,
+      "issuer": "/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/style-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/css-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/sass-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/src/style.scss",
+      "issuerName": "./src/style.scss",
+      "issuerPath": [
+        {
+          "identifier": "/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/ts-loader/index.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/src/index.ts",
+          "name": "./src/index.ts",
+          "id": "./src/index.ts"
+        },
+        {
+          "identifier": "/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/style-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/css-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/sass-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/src/style.scss",
+          "name": "./src/style.scss",
+          "id": "./src/style.scss"
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": "./node_modules/style-loader/dist/runtime/insertStyleElement.js",
+      "issuerId": "./src/style.scss",
+      "chunks": [
+        "main"
+      ],
+      "assets": [],
+      "reasons": [
+        {
+          "moduleIdentifier": "/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/style-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/css-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/sass-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/src/style.scss",
+          "module": "./src/style.scss",
+          "moduleName": "./src/style.scss",
+          "resolvedModuleIdentifier": "/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/style-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/css-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/sass-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/src/style.scss",
+          "resolvedModule": "./src/style.scss",
+          "type": "harmony side effect evaluation",
+          "active": true,
+          "explanation": "",
+          "userRequest": "!../node_modules/style-loader/dist/runtime/insertStyleElement.js",
+          "loc": "6:6-104",
+          "moduleId": "./src/style.scss",
+          "resolvedModuleId": "./src/style.scss"
+        },
+        {
+          "moduleIdentifier": "/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/style-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/css-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/sass-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/src/style.scss",
+          "module": "./src/style.scss",
+          "moduleName": "./src/style.scss",
+          "resolvedModuleIdentifier": "/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/style-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/css-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/sass-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/src/style.scss",
+          "resolvedModule": "./src/style.scss",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "!../node_modules/style-loader/dist/runtime/insertStyleElement.js",
+          "loc": "20:29-47",
+          "moduleId": "./src/style.scss",
+          "resolvedModuleId": "./src/style.scss"
+        },
+        {
+          "moduleIdentifier": "/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/style-loader/dist/runtime/insertStyleElement.js",
+          "module": "./node_modules/style-loader/dist/runtime/insertStyleElement.js",
+          "moduleName": "./node_modules/style-loader/dist/runtime/insertStyleElement.js",
+          "resolvedModuleIdentifier": "/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/style-loader/dist/runtime/insertStyleElement.js",
+          "resolvedModule": "./node_modules/style-loader/dist/runtime/insertStyleElement.js",
+          "type": "cjs self exports reference",
+          "active": true,
+          "explanation": "",
+          "userRequest": null,
+          "loc": "10:0-14",
+          "moduleId": "./node_modules/style-loader/dist/runtime/insertStyleElement.js",
+          "resolvedModuleId": "./node_modules/style-loader/dist/runtime/insertStyleElement.js"
+        }
+      ],
+      "usedExports": null,
+      "providedExports": null,
+      "optimizationBailout": [
+        "CommonJS bailout: module.exports is used directly at 10:0-14"
+      ],
+      "depth": 2
+    },
+    {
+      "type": "module",
+      "moduleType": "javascript/auto",
+      "layer": null,
+      "size": 380,
+      "sizes": {
+        "javascript": 380
+      },
+      "built": true,
+      "codeGenerated": true,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/style-loader/dist/runtime/styleTagTransform.js",
+      "name": "./node_modules/style-loader/dist/runtime/styleTagTransform.js",
+      "nameForCondition": "/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/style-loader/dist/runtime/styleTagTransform.js",
+      "index": 7,
+      "preOrderIndex": 7,
+      "index2": 5,
+      "postOrderIndex": 5,
+      "cacheable": true,
+      "optional": false,
+      "orphan": false,
+      "issuer": "/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/style-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/css-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/sass-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/src/style.scss",
+      "issuerName": "./src/style.scss",
+      "issuerPath": [
+        {
+          "identifier": "/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/ts-loader/index.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/src/index.ts",
+          "name": "./src/index.ts",
+          "id": "./src/index.ts"
+        },
+        {
+          "identifier": "/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/style-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/css-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/sass-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/src/style.scss",
+          "name": "./src/style.scss",
+          "id": "./src/style.scss"
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": "./node_modules/style-loader/dist/runtime/styleTagTransform.js",
+      "issuerId": "./src/style.scss",
+      "chunks": [
+        "main"
+      ],
+      "assets": [],
+      "reasons": [
+        {
+          "moduleIdentifier": "/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/style-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/css-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/sass-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/src/style.scss",
+          "module": "./src/style.scss",
+          "moduleName": "./src/style.scss",
+          "resolvedModuleIdentifier": "/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/style-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/css-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/sass-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/src/style.scss",
+          "resolvedModule": "./src/style.scss",
+          "type": "harmony side effect evaluation",
+          "active": true,
+          "explanation": "",
+          "userRequest": "!../node_modules/style-loader/dist/runtime/styleTagTransform.js",
+          "loc": "7:6-104",
+          "moduleId": "./src/style.scss",
+          "resolvedModuleId": "./src/style.scss"
+        },
+        {
+          "moduleIdentifier": "/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/style-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/css-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/sass-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/src/style.scss",
+          "module": "./src/style.scss",
+          "moduleName": "./src/style.scss",
+          "resolvedModuleIdentifier": "/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/style-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/css-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/sass-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/src/style.scss",
+          "resolvedModule": "./src/style.scss",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "!../node_modules/style-loader/dist/runtime/styleTagTransform.js",
+          "loc": "14:28-47",
+          "moduleId": "./src/style.scss",
+          "resolvedModuleId": "./src/style.scss"
+        },
+        {
+          "moduleIdentifier": "/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/style-loader/dist/runtime/styleTagTransform.js",
+          "module": "./node_modules/style-loader/dist/runtime/styleTagTransform.js",
+          "moduleName": "./node_modules/style-loader/dist/runtime/styleTagTransform.js",
+          "resolvedModuleIdentifier": "/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/style-loader/dist/runtime/styleTagTransform.js",
+          "resolvedModule": "./node_modules/style-loader/dist/runtime/styleTagTransform.js",
+          "type": "cjs self exports reference",
+          "active": true,
+          "explanation": "",
+          "userRequest": null,
+          "loc": "14:0-14",
+          "moduleId": "./node_modules/style-loader/dist/runtime/styleTagTransform.js",
+          "resolvedModuleId": "./node_modules/style-loader/dist/runtime/styleTagTransform.js"
+        }
+      ],
+      "usedExports": null,
+      "providedExports": null,
+      "optimizationBailout": [
+        "CommonJS bailout: module.exports is used directly at 14:0-14"
+      ],
+      "depth": 2
+    },
+    {
+      "type": "module",
+      "moduleType": "javascript/auto",
+      "layer": null,
+      "size": 595,
+      "sizes": {
+        "javascript": 595
+      },
+      "built": true,
+      "codeGenerated": true,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/css-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/sass-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/src/style.scss",
+      "name": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/style.scss",
+      "nameForCondition": "/Users/facundo/Documents/Master-Front/modulo-03-bundling/src/style.scss",
+      "index": 8,
+      "preOrderIndex": 8,
+      "index2": 8,
+      "postOrderIndex": 8,
+      "cacheable": true,
+      "optional": false,
+      "orphan": false,
+      "issuer": "/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/style-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/css-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/sass-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/src/style.scss",
+      "issuerName": "./src/style.scss",
+      "issuerPath": [
+        {
+          "identifier": "/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/ts-loader/index.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/src/index.ts",
+          "name": "./src/index.ts",
+          "id": "./src/index.ts"
+        },
+        {
+          "identifier": "/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/style-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/css-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/sass-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/src/style.scss",
+          "name": "./src/style.scss",
+          "id": "./src/style.scss"
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/style.scss",
+      "issuerId": "./src/style.scss",
+      "chunks": [
+        "main"
+      ],
+      "assets": [],
+      "reasons": [
+        {
+          "moduleIdentifier": "/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/style-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/css-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/sass-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/src/style.scss",
+          "module": "./src/style.scss",
+          "moduleName": "./src/style.scss",
+          "resolvedModuleIdentifier": "/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/style-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/css-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/sass-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/src/style.scss",
+          "resolvedModule": "./src/style.scss",
+          "type": "harmony side effect evaluation",
+          "active": true,
+          "explanation": "",
+          "userRequest": "!!../node_modules/css-loader/dist/cjs.js!../node_modules/sass-loader/dist/cjs.js!./style.scss",
+          "loc": "8:6-140",
+          "moduleId": "./src/style.scss",
+          "resolvedModuleId": "./src/style.scss"
+        },
+        {
+          "moduleIdentifier": "/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/style-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/css-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/sass-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/src/style.scss",
+          "module": "./src/style.scss",
+          "moduleName": "./src/style.scss",
+          "resolvedModuleIdentifier": "/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/style-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/css-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/sass-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/src/style.scss",
+          "resolvedModule": "./src/style.scss",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "!!../node_modules/css-loader/dist/cjs.js!../node_modules/sass-loader/dist/cjs.js!./style.scss",
+          "loc": "22:17-24",
+          "moduleId": "./src/style.scss",
+          "resolvedModuleId": "./src/style.scss"
+        },
+        {
+          "moduleIdentifier": "/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/style-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/css-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/sass-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/src/style.scss",
+          "module": "./src/style.scss",
+          "moduleName": "./src/style.scss",
+          "resolvedModuleIdentifier": "/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/style-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/css-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/sass-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/src/style.scss",
+          "resolvedModule": "./src/style.scss",
+          "type": "harmony side effect evaluation",
+          "active": true,
+          "explanation": "",
+          "userRequest": "!!../node_modules/css-loader/dist/cjs.js!../node_modules/sass-loader/dist/cjs.js!./style.scss",
+          "loc": "26:0-110",
+          "moduleId": "./src/style.scss",
+          "resolvedModuleId": "./src/style.scss"
+        },
+        {
+          "moduleIdentifier": "/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/style-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/css-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/sass-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/src/style.scss",
+          "module": "./src/style.scss",
+          "moduleName": "./src/style.scss",
+          "resolvedModuleIdentifier": "/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/style-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/css-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/sass-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/src/style.scss",
+          "resolvedModule": "./src/style.scss",
+          "type": "harmony export imported specifier",
+          "active": false,
+          "explanation": "",
+          "userRequest": "!!../node_modules/css-loader/dist/cjs.js!../node_modules/sass-loader/dist/cjs.js!./style.scss",
+          "loc": "26:0-110",
+          "moduleId": "./src/style.scss",
+          "resolvedModuleId": "./src/style.scss"
+        },
+        {
+          "moduleIdentifier": "/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/style-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/css-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/sass-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/src/style.scss",
+          "module": "./src/style.scss",
+          "moduleName": "./src/style.scss",
+          "resolvedModuleIdentifier": "/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/style-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/css-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/sass-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/src/style.scss",
+          "resolvedModule": "./src/style.scss",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "!!../node_modules/css-loader/dist/cjs.js!../node_modules/sass-loader/dist/cjs.js!./style.scss",
+          "loc": "27:22-29",
+          "moduleId": "./src/style.scss",
+          "resolvedModuleId": "./src/style.scss"
+        },
+        {
+          "moduleIdentifier": "/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/style-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/css-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/sass-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/src/style.scss",
+          "module": "./src/style.scss",
+          "moduleName": "./src/style.scss",
+          "resolvedModuleIdentifier": "/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/style-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/css-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/sass-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/src/style.scss",
+          "resolvedModule": "./src/style.scss",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "!!../node_modules/css-loader/dist/cjs.js!../node_modules/sass-loader/dist/cjs.js!./style.scss",
+          "loc": "27:33-47",
+          "moduleId": "./src/style.scss",
+          "resolvedModuleId": "./src/style.scss"
+        },
+        {
+          "moduleIdentifier": "/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/style-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/css-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/sass-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/src/style.scss",
+          "module": "./src/style.scss",
+          "moduleName": "./src/style.scss",
+          "resolvedModuleIdentifier": "/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/style-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/css-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/sass-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/src/style.scss",
+          "resolvedModule": "./src/style.scss",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "!!../node_modules/css-loader/dist/cjs.js!../node_modules/sass-loader/dist/cjs.js!./style.scss",
+          "loc": "27:50-64",
+          "moduleId": "./src/style.scss",
+          "resolvedModuleId": "./src/style.scss"
+        }
+      ],
+      "usedExports": null,
+      "providedExports": [
+        "default"
+      ],
+      "optimizationBailout": [],
+      "depth": 2
+    },
+    {
+      "type": "module",
+      "moduleType": "javascript/auto",
+      "layer": null,
+      "size": 64,
+      "sizes": {
+        "javascript": 64
+      },
+      "built": true,
+      "codeGenerated": true,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/css-loader/dist/runtime/noSourceMaps.js",
+      "name": "./node_modules/css-loader/dist/runtime/noSourceMaps.js",
+      "nameForCondition": "/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/css-loader/dist/runtime/noSourceMaps.js",
+      "index": 9,
+      "preOrderIndex": 9,
+      "index2": 6,
+      "postOrderIndex": 6,
+      "cacheable": true,
+      "optional": false,
+      "orphan": false,
+      "issuer": "/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/css-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/sass-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/src/style.scss",
+      "issuerName": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/style.scss",
+      "issuerPath": [
+        {
+          "identifier": "/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/ts-loader/index.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/src/index.ts",
+          "name": "./src/index.ts",
+          "id": "./src/index.ts"
+        },
+        {
+          "identifier": "/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/style-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/css-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/sass-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/src/style.scss",
+          "name": "./src/style.scss",
+          "id": "./src/style.scss"
+        },
+        {
+          "identifier": "/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/css-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/sass-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/src/style.scss",
+          "name": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/style.scss",
+          "id": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/style.scss"
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": "./node_modules/css-loader/dist/runtime/noSourceMaps.js",
+      "issuerId": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/style.scss",
+      "chunks": [
+        "main"
+      ],
+      "assets": [],
+      "reasons": [
+        {
+          "moduleIdentifier": "/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/css-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/sass-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/src/style.scss",
+          "module": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/style.scss",
+          "moduleName": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/style.scss",
+          "resolvedModuleIdentifier": "/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/css-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/sass-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/src/style.scss",
+          "resolvedModule": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/style.scss",
+          "type": "harmony side effect evaluation",
+          "active": true,
+          "explanation": "",
+          "userRequest": "../node_modules/css-loader/dist/runtime/noSourceMaps.js",
+          "loc": "2:0-111",
+          "moduleId": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/style.scss",
+          "resolvedModuleId": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/style.scss"
+        },
+        {
+          "moduleIdentifier": "/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/css-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/sass-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/src/style.scss",
+          "module": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/style.scss",
+          "moduleName": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/style.scss",
+          "resolvedModuleIdentifier": "/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/css-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/sass-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/src/style.scss",
+          "resolvedModule": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/style.scss",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "../node_modules/css-loader/dist/runtime/noSourceMaps.js",
+          "loc": "4:58-98",
+          "moduleId": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/style.scss",
+          "resolvedModuleId": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/style.scss"
+        },
+        {
+          "moduleIdentifier": "/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/css-loader/dist/runtime/noSourceMaps.js",
+          "module": "./node_modules/css-loader/dist/runtime/noSourceMaps.js",
+          "moduleName": "./node_modules/css-loader/dist/runtime/noSourceMaps.js",
+          "resolvedModuleIdentifier": "/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/css-loader/dist/runtime/noSourceMaps.js",
+          "resolvedModule": "./node_modules/css-loader/dist/runtime/noSourceMaps.js",
+          "type": "cjs self exports reference",
+          "active": true,
+          "explanation": "",
+          "userRequest": null,
+          "loc": "3:0-14",
+          "moduleId": "./node_modules/css-loader/dist/runtime/noSourceMaps.js",
+          "resolvedModuleId": "./node_modules/css-loader/dist/runtime/noSourceMaps.js"
+        }
+      ],
+      "usedExports": null,
+      "providedExports": null,
+      "optimizationBailout": [
+        "CommonJS bailout: module.exports is used directly at 3:0-14"
+      ],
+      "depth": 3
+    },
+    {
+      "type": "module",
+      "moduleType": "javascript/auto",
+      "layer": null,
+      "size": 2303,
+      "sizes": {
+        "javascript": 2303
+      },
+      "built": true,
+      "codeGenerated": true,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/css-loader/dist/runtime/api.js",
+      "name": "./node_modules/css-loader/dist/runtime/api.js",
+      "nameForCondition": "/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/css-loader/dist/runtime/api.js",
+      "index": 10,
+      "preOrderIndex": 10,
+      "index2": 7,
+      "postOrderIndex": 7,
+      "cacheable": true,
+      "optional": false,
+      "orphan": false,
+      "issuer": "/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/css-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/sass-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/src/style.scss",
+      "issuerName": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/style.scss",
+      "issuerPath": [
+        {
+          "identifier": "/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/ts-loader/index.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/src/index.ts",
+          "name": "./src/index.ts",
+          "id": "./src/index.ts"
+        },
+        {
+          "identifier": "/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/style-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/css-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/sass-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/src/style.scss",
+          "name": "./src/style.scss",
+          "id": "./src/style.scss"
+        },
+        {
+          "identifier": "/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/css-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/sass-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/src/style.scss",
+          "name": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/style.scss",
+          "id": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/style.scss"
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": "./node_modules/css-loader/dist/runtime/api.js",
+      "issuerId": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/style.scss",
+      "chunks": [
+        "main"
+      ],
+      "assets": [],
+      "reasons": [
+        {
+          "moduleIdentifier": "/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/css-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/sass-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/src/style.scss",
+          "module": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/style.scss",
+          "moduleName": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/style.scss",
+          "resolvedModuleIdentifier": "/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/css-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/sass-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/src/style.scss",
+          "resolvedModule": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/style.scss",
+          "type": "harmony side effect evaluation",
+          "active": true,
+          "explanation": "",
+          "userRequest": "../node_modules/css-loader/dist/runtime/api.js",
+          "loc": "3:0-89",
+          "moduleId": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/style.scss",
+          "resolvedModuleId": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/style.scss"
+        },
+        {
+          "moduleIdentifier": "/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/css-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/sass-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/src/style.scss",
+          "module": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/style.scss",
+          "moduleName": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/style.scss",
+          "resolvedModuleIdentifier": "/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/css-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/sass-loader/dist/cjs.js!/Users/facundo/Documents/Master-Front/modulo-03-bundling/src/style.scss",
+          "resolvedModule": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/style.scss",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "../node_modules/css-loader/dist/runtime/api.js",
+          "loc": "4:30-57",
+          "moduleId": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/style.scss",
+          "resolvedModuleId": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/style.scss"
+        },
+        {
+          "moduleIdentifier": "/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/css-loader/dist/runtime/api.js",
+          "module": "./node_modules/css-loader/dist/runtime/api.js",
+          "moduleName": "./node_modules/css-loader/dist/runtime/api.js",
+          "resolvedModuleIdentifier": "/Users/facundo/Documents/Master-Front/modulo-03-bundling/node_modules/css-loader/dist/runtime/api.js",
+          "resolvedModule": "./node_modules/css-loader/dist/runtime/api.js",
+          "type": "cjs self exports reference",
+          "active": true,
+          "explanation": "",
+          "userRequest": null,
+          "loc": "7:0-14",
+          "moduleId": "./node_modules/css-loader/dist/runtime/api.js",
+          "resolvedModuleId": "./node_modules/css-loader/dist/runtime/api.js"
+        }
+      ],
+      "usedExports": null,
+      "providedExports": null,
+      "optimizationBailout": [
+        "CommonJS bailout: module.exports is used directly at 7:0-14"
+      ],
+      "depth": 3
+    },
+    {
+      "type": "module",
+      "moduleType": "runtime",
+      "layer": null,
+      "size": 267,
+      "sizes": {
+        "runtime": 267
+      },
+      "built": false,
+      "codeGenerated": true,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "webpack/runtime/compat get default export",
+      "name": "webpack/runtime/compat get default export",
+      "nameForCondition": null,
+      "index": null,
+      "preOrderIndex": null,
+      "index2": null,
+      "postOrderIndex": null,
+      "optional": false,
+      "orphan": false,
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": "",
+      "chunks": [
+        "main"
+      ],
+      "assets": [],
+      "reasons": [],
+      "usedExports": null,
+      "providedExports": [],
+      "optimizationBailout": [],
+      "depth": null
+    },
+    {
+      "type": "module",
+      "moduleType": "runtime",
+      "layer": null,
+      "size": 308,
+      "sizes": {
+        "runtime": 308
+      },
+      "built": false,
+      "codeGenerated": true,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "webpack/runtime/define property getters",
+      "name": "webpack/runtime/define property getters",
+      "nameForCondition": null,
+      "index": null,
+      "preOrderIndex": null,
+      "index2": null,
+      "postOrderIndex": null,
+      "optional": false,
+      "orphan": false,
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": "",
+      "chunks": [
+        "main"
+      ],
+      "assets": [],
+      "reasons": [],
+      "usedExports": null,
+      "providedExports": [],
+      "optimizationBailout": [],
+      "depth": null
+    },
+    {
+      "type": "module",
+      "moduleType": "runtime",
+      "layer": null,
+      "size": 88,
+      "sizes": {
+        "runtime": 88
+      },
+      "built": false,
+      "codeGenerated": true,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "webpack/runtime/hasOwnProperty shorthand",
+      "name": "webpack/runtime/hasOwnProperty shorthand",
+      "nameForCondition": null,
+      "index": null,
+      "preOrderIndex": null,
+      "index2": null,
+      "postOrderIndex": null,
+      "optional": false,
+      "orphan": false,
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": "",
+      "chunks": [
+        "main"
+      ],
+      "assets": [],
+      "reasons": [],
+      "usedExports": null,
+      "providedExports": [],
+      "optimizationBailout": [],
+      "depth": null
+    },
+    {
+      "type": "module",
+      "moduleType": "runtime",
+      "layer": null,
+      "size": 274,
+      "sizes": {
+        "runtime": 274
+      },
+      "built": false,
+      "codeGenerated": true,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "webpack/runtime/make namespace object",
+      "name": "webpack/runtime/make namespace object",
+      "nameForCondition": null,
+      "index": null,
+      "preOrderIndex": null,
+      "index2": null,
+      "postOrderIndex": null,
+      "optional": false,
+      "orphan": false,
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": "",
+      "chunks": [
+        "main"
+      ],
+      "assets": [],
+      "reasons": [],
+      "usedExports": null,
+      "providedExports": [],
+      "optimizationBailout": [],
+      "depth": null
+    },
+    {
+      "type": "module",
+      "moduleType": "runtime",
+      "layer": null,
+      "size": 35,
+      "sizes": {
+        "runtime": 35
+      },
+      "built": false,
+      "codeGenerated": true,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "webpack/runtime/nonce",
+      "name": "webpack/runtime/nonce",
+      "nameForCondition": null,
+      "index": null,
+      "preOrderIndex": null,
+      "index2": null,
+      "postOrderIndex": null,
+      "optional": false,
+      "orphan": false,
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": "",
+      "chunks": [
+        "main"
+      ],
+      "assets": [],
+      "reasons": [],
+      "usedExports": null,
+      "providedExports": [],
+      "optimizationBailout": [],
+      "depth": null
+    }
+  ],
+  "entrypoints": {
+    "main": {
+      "name": "main",
+      "chunks": [
+        "main"
+      ],
+      "assets": [
+        {
+          "name": "bundle.js"
+        }
+      ],
+      "filteredAssets": 0,
+      "assetsSize": null,
+      "auxiliaryAssets": [],
+      "filteredAuxiliaryAssets": 0,
+      "auxiliaryAssetsSize": 0,
+      "children": {},
+      "childAssets": {},
+      "isOverSizeLimit": false
+    }
+  },
+  "namedChunkGroups": {
+    "main": {
+      "name": "main",
+      "chunks": [
+        "main"
+      ],
+      "assets": [
+        {
+          "name": "bundle.js"
+        }
+      ],
+      "filteredAssets": 0,
+      "assetsSize": null,
+      "auxiliaryAssets": [],
+      "filteredAuxiliaryAssets": 0,
+      "auxiliaryAssetsSize": 0,
+      "children": {},
+      "childAssets": {},
+      "isOverSizeLimit": false
+    }
+  },
+  "errors": [],
+  "errorsCount": 0,
+  "warnings": [],
+  "warningsCount": 0,
+  "children": []
+}
