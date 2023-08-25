@@ -1,6 +1,8 @@
 const path = require('path');
 const StatsPlugin = require('webpack-stats-plugin').StatsWriterPlugin;
 const CopyWebpackPlugin = require('copy-webpack-plugin');
+const HtmlWebpackPlugin = require('html-webpack-plugin');
+const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 
 module.exports = {
   mode: 'development',  
@@ -13,6 +15,12 @@ module.exports = {
     extensions: ['.ts', '.js'],
   },
   plugins: [
+    new HtmlWebpackPlugin({
+      template: './src/index.html',
+    }),
+    new MiniCssExtractPlugin({
+      filename: 'style.css',
+    }),
     new StatsPlugin({
       filename: 'stats.json',
       stats: 'verbnose'
@@ -26,6 +34,9 @@ module.exports = {
       ],
     }),
   ],
+  devServer: {
+    port: 8080
+  },
   module: {
     rules: [
       {
@@ -36,7 +47,7 @@ module.exports = {
       {
         test: /\.scss$/,
         use: [
-          'style-loader',
+          MiniCssExtractPlugin.loader,
           'css-loader',
           'sass-loader'
         ],
