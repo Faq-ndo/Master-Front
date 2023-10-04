@@ -11,7 +11,10 @@ export const useConfirmationDialog = () => {
     onAccept: () => {
       setItemToDelete(createEmptyLookup());
     },
-    onClose: () => setIsOpen(false),
+    onClose: () => {
+      setIsOpen(false);
+      setItemToDelete(createEmptyLookup());
+    },
     onOpenDialog: (item: Lookup) => {
       setIsOpen(true);
       setItemToDelete(item);
