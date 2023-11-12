@@ -3,10 +3,7 @@ import { Formik, Form } from 'formik';
 import Button from '@mui/material/Button';
 import {
   TextFieldComponent,
-  SelectComponent,
-  RatingComponent,
 } from 'common/components';
-import { Lookup } from 'common/models';
 import { formValidation } from './character.validations';
 import { Character } from './character.vm';
 import * as classes from './character.styles';
@@ -18,6 +15,7 @@ interface Props {
 
 export const CharacterComponent: React.FunctionComponent<Props> = (props) => {
     const { character, onSave } = props;
+    console.log(character)
 
     return (
         <Formik onSubmit={onSave} initialValues={character} enableReinitialize={true} validate={formValidation.validateForm}>

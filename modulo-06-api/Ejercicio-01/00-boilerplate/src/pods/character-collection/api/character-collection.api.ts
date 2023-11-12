@@ -1,13 +1,22 @@
 import { CharacterEntityApi } from './character-collection.api-model';
-import { mockCharacterCollection } from './character-collection.mock-data';
 
-let characterCollection = [...mockCharacterCollection];
+const API_URL = 'https://rickandmortyapi.com/api/character';
 
 export const getCharacterCollection = async (): Promise<CharacterEntityApi[]> => {
-    return characterCollection;
-  };
+  try {
+    const response = await fetch(API_URL);
+    if (response.ok) {
+      const characterCollection = await response.json();
+      console.log(characterCollection.results)
+      return characterCollection.results;
+    } else {
+      throw new Error('Error al obtener la colección de personajes');
+    }
+  } catch (error) {
+    throw new Error('Error al obtener la colección de personajes: ' + error.message);
+  }
+ };
   
   export const deleteCharacter = async (id: number): Promise<boolean> => {
-    characterCollection = characterCollection.filter((h) => h.id !== id);
     return true;
   };
