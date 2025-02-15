@@ -1,18 +1,10 @@
 import { GitHubUser } from "@/types";
-const GITHUB_TOKEN =
-  "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";
 
 export const usersService = {
   async get(): Promise<GitHubUser[]> {
     try {
       const membersResponse = await fetch(
-        `https://api.github.com/orgs/lemoncode/members`,
-        {
-          headers: {
-            Authorization: `Bearer ${GITHUB_TOKEN}`,
-            Accept: "application/vnd.github.v3+json",
-          },
-        }
+        `https://api.github.com/orgs/lemoncode/members`
       );
       const members: { login: string }[] = await membersResponse.json();
 
@@ -23,22 +15,11 @@ export const usersService = {
       const users: GitHubUser[] = await Promise.all(
         members.map(async (member) => {
           const userResponse = await fetch(
-            `https://api.github.com/users/${member.login}`,
-            {
-              headers: {
-                Authorization: `Bearer ${GITHUB_TOKEN}`,
-                Accept: "application/vnd.github.v3+json",
-              },
-            }
+            `https://api.github.com/users/${member.login}`
           );
           const userData = await userResponse.json();
 
-          const orgsResponse = await fetch(userData.organizations_url, {
-            headers: {
-              Authorization: `Bearer ${GITHUB_TOKEN}`,
-              Accept: "application/vnd.github.v3+json",
-            },
-          });
+          const orgsResponse = await fetch(userData.organizations_url);
 
           const orgsData = await orgsResponse.json();
 
@@ -64,12 +45,7 @@ export const usersService = {
   },
 
   async getUser(login: string): Promise<GitHubUser> {
-    const userResponse = await fetch(`https://api.github.com/users/${login}`, {
-      headers: {
-        Authorization: `Bearer ${GITHUB_TOKEN}`,
-        Accept: "application/vnd.github.v3+json",
-      },
-    });
+    const userResponse = await fetch(`https://api.github.com/users/${login}`);
     const userData = await userResponse.json();
     return userData;
   },
