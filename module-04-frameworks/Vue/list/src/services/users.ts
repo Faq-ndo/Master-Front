@@ -1,11 +1,10 @@
 import { GitHubUser } from "@/types";
 
 export const usersService = {
-  async get(): Promise<GitHubUser[]> {
+  async get(organization: string): Promise<GitHubUser[]> {
     try {
-      const membersResponse = await fetch(
-        `https://api.github.com/orgs/lemoncode/members`
-      );
+      const url = `https://api.github.com/orgs/${organization}/members`;
+      const membersResponse = await fetch(url);
       const members: { login: string }[] = await membersResponse.json();
 
       if (!Array.isArray(members)) {
