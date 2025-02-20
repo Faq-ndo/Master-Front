@@ -1,10 +1,19 @@
 import { GitHubUser } from "@/types";
+const githubToken = "add here token";
 
 export const usersService = {
   async get(organization: string): Promise<GitHubUser[]> {
     try {
       const url = `https://api.github.com/orgs/${organization}/members`;
-      const membersResponse = await fetch(url);
+      console.log(url);
+
+      const membersResponse = await fetch(url, {
+        headers: {
+          Authorization: `Bearer ${githubToken}`,
+          Accept: "application/vnd.github+json",
+        },
+      });
+
       const members: { login: string }[] = await membersResponse.json();
 
       if (!Array.isArray(members)) {
@@ -13,12 +22,21 @@ export const usersService = {
 
       const users: GitHubUser[] = await Promise.all(
         members.map(async (member) => {
-          const userResponse = await fetch(
-            `https://api.github.com/users/${member.login}`
-          );
+          const url = `https://api.github.com/users/${member.login}`;
+          const userResponse = await fetch(url, {
+            headers: {
+              Authorization: `Bearer ${githubToken}`,
+              Accept: "application/vnd.github+json",
+            },
+          });
           const userData = await userResponse.json();
 
-          const orgsResponse = await fetch(userData.organizations_url);
+          const orgsResponse = await fetch(userData.organizations_url, {
+            headers: {
+              Authorization: `Bearer ${githubToken}`,
+              Accept: "application/vnd.github+json",
+            },
+          });
 
           const orgsData = await orgsResponse.json();
 
@@ -38,13 +56,17 @@ export const usersService = {
 
       return users;
     } catch (error) {
-      console.error("Error fetching members or user data:", error);
       return [];
     }
   },
 
   async getUser(login: string): Promise<GitHubUser> {
-    const userResponse = await fetch(`https://api.github.com/users/${login}`);
+    const userResponse = await fetch(`https://api.github.com/users/${login}`, {
+      headers: {
+        Authorization: `Bearer ${githubToken}`,
+        Accept: "application/vnd.github+json",
+      },
+    });
     const userData = await userResponse.json();
     return userData;
   },
